@@ -19,7 +19,7 @@ function App() {
   }
   return (
     <div className="App">
-      <h1>Работа со стейтом(Функциональный компонент)</h1>
+      <h1>Работа со стейтом (функциональный компонент)</h1>
 
       <h2>{valueDate}</h2>
       <button onClick={word}>выберите дату</button>
