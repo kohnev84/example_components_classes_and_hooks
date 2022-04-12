@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Button } from 'antd';
 
 class Word2 extends Component {
 
@@ -33,9 +34,9 @@ class Word2 extends Component {
                 <h1>Работа со стейтом (классовый компонент)</h1>
 
                 <h2>{this.state.valueDate}</h2>
-                <button onClick={this.word}>выберите дату</button>
+                <Button onClick={this.word}>выберите дату</Button>
                 <h2>{this.state.moscowDate}</h2>
-                <button onClick={this.city}>выбери Москву</button>
+                <Button onClick={this.city}>выбери Москву</Button>
                 <h3>{this.state.numberoneDate}</h3>
             </div>
 

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import 'antd/dist/antd.css';
+import { Button } from 'antd';
 import './App.css';
 import Word2 from './components/Word2';
 
@@ -22,10 +23,10 @@ function App() {
       <h1>Работа со стейтом (функциональный компонент)</h1>
 
       <h2>{valueDate}</h2>
-      <button onClick={word}>выберите дату</button>
+      <Button onClick={word}>выберите дату</Button>
 
       <h2>{moscowDate}</h2>
-      <button onClick={city}>Выбери Москву</button>
+      <Button onClick={city}>Выбери Москву</Button>
       <h3>{numberoneDate}</h3>
       <Word2 />
     </div>
