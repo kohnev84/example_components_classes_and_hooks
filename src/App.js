@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Slider } from 'antd';
-import { Button } from 'antd';
 import 'antd/dist/antd.css';
 import './App.css';
 import Word2 from './components/Word2';
@@ -21,7 +19,7 @@ function App() {
   }
   return (
     <div className="App">
-      <h1>работа со стейтом(Функциональный компонент)</h1>
+      <h1>Работа со стейтом(Функциональный компонент)</h1>
 
       <h2>{valueDate}</h2>
       <button onClick={word}>выберите дату</button>

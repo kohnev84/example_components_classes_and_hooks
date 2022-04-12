@@ -30,7 +30,7 @@ class Word2 extends Component {
 
         return (
             <div style={{ backgroundColor: "red" }}>
-                <h1>работа со стейтом(Классовый компонент)</h1>
+                <h1>Работа со стейтом(Классовый компонент)</h1>
 
                 <h2>{this.state.valueDate}</h2>
                 <button onClick={this.word}>выберите дату</button>
